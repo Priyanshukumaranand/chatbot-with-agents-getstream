@@ -31,7 +31,7 @@ setInterval(async () => {
 app.get("/", (req, res) => {
   res.json({
     message: "AI Writing Assistant Server is running",
-    apiKey: apiKey,
+    // apiKey: apiKey,
     activeAgents: aiAgentCache.size,
   });
 });
